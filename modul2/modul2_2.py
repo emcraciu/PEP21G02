@@ -14,13 +14,37 @@
 #     print('something else')
 #
 # print()
-from time import sleep
+# from time import sleep
+#
+# for letter in 'my text':
+#     print(letter, end='')
+#     sleep(1)
+#
+# print(letter)
 
-for letter in 'my text':
-    print(letter, end='')
-    sleep(1)
+# True and True
 
-print(letter)
+# False or False
+
+# XOR
+a = 'a'
+b = 'b'
 
 
+# AND and OR operators for objects
+print(a and b)
 
+if a:
+    print(b)
+else:
+    print(a)
+
+a = False
+b = True
+
+print(a or b)
+
+if a:
+    print(a)
+else:
+    print(b)
