@@ -1,0 +1,10 @@
+# printeaza un Triunghi si un Patrat
+print('Triunghi: ')
+print("   / \ ")
+print("  /   \ ")
+print(' /     \ ')
+print("/_______\ ")
+print('Patrat: ')
+print(" _____")
+print("|     |")
+print("|_____|")

@@ -5,28 +5,28 @@ return : acegikm
 """
 
 # increment for position
-# text = input("Get input text: ")
-# letter1 = chr(ord(text[0]) + 0)
-# letter2 = chr(ord(text[1]) + 1)
-# letter3 = chr(ord(text[2]) + 2)
-# letter4 = chr(ord(text[3]) + 3)
-# letter5 = chr(ord(text[4]) + 4)
-# letter6 = chr(ord(text[5]) + 5)
-# letter7 = chr(ord(text[6]) + 6)
-# result = f'{letter1}{letter2}{letter3}{letter4}{letter5}{letter6}{letter7}'
-# print(result)
+text = input("Get input text: ")
+letter1 = chr(ord(text[0]) + 0)
+letter2 = chr(ord(text[1]) + 1)
+letter3 = chr(ord(text[2]) + 2)
+letter4 = chr(ord(text[3]) + 3)
+letter5 = chr(ord(text[4]) + 4)
+letter6 = chr(ord(text[5]) + 5)
+letter7 = chr(ord(text[6]) + 6)
+result = f'{letter1}{letter2}{letter3}{letter4}{letter5}{letter6}{letter7}'
+print('Increment by position:', result)
 
 # increment for letter
-
-x = input("input=")
-z1 = chr(ord(x[0]) + (ord(x[0]) - ord('a')))
-z2 = chr(ord(x[1]) + (ord(x[1]) - ord('a')))
-z3 = chr(ord(x[2]) + (ord(x[2]) - ord('a')))
-z4 = chr(ord(x[3]) + (ord(x[3]) - ord('a')))
-z5 = chr(ord(x[4]) + (ord(x[4]) - ord('a')))
-z6 = chr(ord(x[5]) + (ord(x[5]) - ord('a')))
-z7 = chr(ord(x[6]) + (ord(x[6]) - ord('a')))
-print(f'{z1}{z2}{z3}{z4}{z5}{z6}{z7}')
+text = input("input=")
+letter1 = chr(ord(text[0]) + (ord(text[0]) - ord('a')))
+letter2 = chr(ord(text[1]) + (ord(text[1]) - ord('a')))
+letter3 = chr(ord(text[2]) + (ord(text[2]) - ord('a')))
+letter4 = chr(ord(text[3]) + (ord(text[3]) - ord('a')))
+letter5 = chr(ord(text[4]) + (ord(text[4]) - ord('a')))
+letter6 = chr(ord(text[5]) + (ord(text[5]) - ord('a')))
+letter7 = chr(ord(text[6]) + (ord(text[6]) - ord('a')))
+result = f'{letter1}{letter2}{letter3}{letter4}{letter5}{letter6}{letter7}'
+print('Increment by difference to letter "a":', result)
 
 # if x[0] == "a" or :
 #     z1 = x[0]
