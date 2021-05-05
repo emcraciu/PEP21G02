@@ -1,7 +1,6 @@
 # functions
 
 # general function construction
-
 def my_func1(arg1, arg2, arg3, kwarg1=' ', kwarg2='\n'):
     print(arg1, arg2, arg3, sep=kwarg1, end=kwarg2)
     return arg1 + arg2 + arg3
