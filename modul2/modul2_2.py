@@ -48,3 +48,9 @@ if a:
     print(a)
 else:
     print(b)
+
+a = 0
+b = 1
+
+if a > b or b > a:
+    print('somethong')

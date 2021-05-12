@@ -71,7 +71,7 @@ c = 1,
 print(type(c))
 
 
-# generaator cu pas de 3 folosit in for pentru a obtine (1,9,18)
+# generaator cu pas de 3 folosit in for pentru a obtine (0,9,18)
 
 # list process
 
