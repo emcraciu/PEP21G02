@@ -12,11 +12,9 @@ print('one'.__hash__())
 
 # get value
 print(my_dict[1])
-#print(my_dict[2])
+# print(my_dict[2])
 print(my_dict.get(1))
 print(my_dict.get(2, 'Not a value'))
-
-
 
 nr = 754343223
 print(id(nr))
@@ -49,3 +47,29 @@ print(80 * '#')
 
 for key, value in my_dict.items():
     print('key:', key, 'value:', value)
+
+
+# calculate factorial
+# n! = 1*2*3 ... *n
+
+def factorial(number):
+    result = 1
+    for i in range(1, number + 1):
+        result *= i
+    return result
+
+
+var1 = factorial(6)
+print(var1)
+
+
+def factorial(n):
+    if n <= 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+
+var1 = factorial(6)
+print(var1)
+
