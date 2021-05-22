@@ -29,4 +29,6 @@ def best_buy(shops: dict, cart: dict):
             _best_buy = shop_name
     print(smallest_cost, _best_buy)
 
-best_buy(available_shops, )
+best_buy(available_shops, need_to_buy)
+
+print(__name__)
