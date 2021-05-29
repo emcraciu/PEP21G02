@@ -1,6 +1,7 @@
 from random import randint
 
-class Device():
+
+class Device:
     local_key = None
     remote_key = None
 
@@ -13,8 +14,10 @@ class Device():
     def sent_local_key(self):
         return self.local_key
 
+
 class Client(Device):
     pass
+
 
 class Server(Device):
     pass
