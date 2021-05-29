@@ -2,10 +2,9 @@ from modul3.app1 import primes
 import random
 
 
-def random_prime_numbers(num, limita):
-    i = 0
+def random_prime_numbers(num, limit):
     fin_list = []
-    my_list = primes(limita)
+    my_list = primes(limit)
     y = len(my_list)
     for _ in range(num):
         x = random.randint(0, y - 1)

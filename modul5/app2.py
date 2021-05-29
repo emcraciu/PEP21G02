@@ -6,7 +6,6 @@ def ip_generator(ip: str):
     fin_list = []
     ip_part, subnet_part = ip.split(sep='/')
     ip_list = ip_part.split(".")
-    # print(ip_list)
     if int(subnet_part) != 24:
         raise Exception
     for k in ip_list:
